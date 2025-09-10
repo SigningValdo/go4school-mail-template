@@ -4,7 +4,7 @@ preheader: "Bienvenue dans la collection Capture Digital photography"
 ---
 
 <x-main>
-  <div class="bg-slate-50 h-screen font-inter">
+  <div class="bg-slate-50 h-screen font-sans">
     <table align="center" class="m-0 mx-auto">
       <tr>
         <td class="w-[698px] max-w-full">
@@ -26,6 +26,31 @@ preheader: "Bienvenue dans la collection Capture Digital photography"
                 <x-spacer height="30px" />
 
                 <img src="app.png" src-production="images/app.png" class="" alt="Maizzle">
+
+                <x-spacer height="30px" />
+
+                <!-- Message de salutation -->
+                <div>
+                  <p class="text-[#333333] text-sm leading-relaxed mb-4">
+                    Merci de faire confiance à Go4School pour l'éducation de vos enfants. 
+                    Notre application vous accompagne au quotidien pour un suivi optimal de leur parcours scolaire.
+                  </p>
+                  
+                  <div class="bg-[#F8FAFC] rounded-[8px] p-4 border-l-4 border-[#29AD41]">
+                    <p class="text-[#333333] text-sm font-medium mb-2">💡 Conseil du jour</p>
+                    <p class="text-[#6E839A] text-xs">
+                      Activez les notifications pour ne rien rater des mises à jour importantes de l'école.
+                    </p>
+                  </div>
+                </div>
+
+                <x-spacer height="20px" />
+
+                <!-- Signature -->
+                <div>
+                  <p class="text-[#333333] text-sm font-medium mb-1">Cordialement,</p>
+                  <p class="text-[#29AD41] text-sm font-semibold">L'Équipe Go4School</p>
+                </div>
 
                 <x-divider class="my-[30px]" />
 
@@ -113,7 +138,7 @@ preheader: "Bienvenue dans la collection Capture Digital photography"
                   <div class="border-t border-[#E2E8F0] pt-4">
                     <p class="text-xs text-[#6E839A] text-center mb-3">Suivez-nous sur les réseaux sociaux</p>
                     <div class="flex justify-center gap-3">
-                      <x-button href="https://www.linkedin.com/company/go4school" target="_blank"
+                      <x-button href="https://www.linkedin.com/company/fnt-technologies" target="_blank"
                         class="bg-[#29AD41] hover:bg-[#008A25] p-2 flex items-center justify-center rounded-full h-[25px] w-[25px]">
                         <img src="in.png" src-production="images/in.png" alt="LinkedIn" width="20">
                       </x-button>
